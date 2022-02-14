@@ -1,0 +1,50 @@
+prune_ration 0.1
+Test set: Accuracy: 9337/10000 (93.4%)
+prune_ration 0.2
+Test set: Accuracy: 9336/10000 (93.4%)
+prune_ration 0.3
+Test set: Accuracy: 9334/10000 (93.3%)
+prune_ration 0.4
+Test set: Accuracy: 9321/10000 (93.2%)
+prune_ration 0.5
+Test set: Accuracy: 9321/10000 (93.2%)
+prune_ration 0.52
+Test set: Accuracy: 9324/10000 (93.2%)
+prune_ration 0.54
+Test set: Accuracy: 9324/10000 (93.2%)
+prune_ration 0.56
+Test set: Accuracy: 9325/10000 (93.2%)
+prune_ration 0.58
+Test set: Accuracy: 9325/10000 (93.2%)
+prune_ration 0.60
+Test set: Accuracy: 9324/10000 (93.2%)
+prune_ration 0.62
+Test set: Accuracy: 9324/10000 (93.2%)
+prune_ration 0.64
+Test set: Accuracy: 9321/10000 (93.2%)
+prune_ration 0.66
+Test set: Accuracy: 9324/10000 (93.2%)
+prune_ration 0.68
+Test set: Accuracy: 9321/10000 (93.2%)
+prune_ration 0.7
+Test set: Accuracy: 9297/10000 (93.0%)
+prune_ration 0.72
+Test set: Accuracy: 6427/10000 (64.3%)
+prune_ration 0.74
+Test set: Accuracy: 1777/10000 (17.8%)
+prune_ration 0.76
+Test set: Accuracy: 1610/10000 (16.1%)
+prune_ration 0.78
+Test set: Accuracy: 1255/10000 (12.6%)
+prune_ration 0.80
+Test set: Accuracy: 1004/10000 (10.0%)
+prune_ration 0.82
+Test set: Accuracy: 1000/10000 (10.0%)
+prune_ration 0.84
+Test set: Accuracy: 1000/10000 (10.0%)
+prune_ration 0.86
+Test set: Accuracy: 1000/10000 (10.0%)
+prune_ration 0.88
+Test set: Accuracy: 1000/10000 (10.0%)
+prune_ration 0.90
+Test set: Accuracy: 1000/10000 (10.0%)
