@@ -22,7 +22,7 @@ python prune.py --model model_best.pth.tar --save pruned.pth.tar --percent 0.7
 ## Fine-tuned
 
 ```shell
-python main.py -refine pruned.pth.tar --epochs 40
+python main.py --refine pruned.pth.tar --epochs 40
 ```
 
 ## Reference
