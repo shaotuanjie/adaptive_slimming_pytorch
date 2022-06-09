@@ -1,6 +1,6 @@
 # pytorch-slimming
 
-
+## initial version on vgg-cifar 
 ## Baseline 
 
 ```shell
