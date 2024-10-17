@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.itheima.cdl.mapper.ApArticleMapper">
+
+    <resultMap id="resultMap" type="com.itheima.cdl.pojo.SearchArticleVo">
+        <id column="id" property="id"/>
+        <result column="title" property="title"/>
+        <result column="images" property="images"/>
+        <result column="publish_time" property="publishTime"/>
+    </resultMap>
+    <select id="loadArticleList" resultMap="resultMap">
+        SELECT
+            id,title,images,publish_time
+        FROM
+            `ap_article`
+        order by id
+        limit #{page},#{pageSize}
+    </select>
+
+    <select id="selectCount" resultType="int">
+        SELECT
+            count(*)
+        FROM
+            `ap_article`
+    </select>
+
+</mapper>
